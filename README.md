@@ -62,14 +62,14 @@ npm install && npm run build
 ```
 
 ## Keterlibatan tools AI
-Proyek ini dikerjakan dengan **Claude (Anthropic), via Claude Code** — estimasi keterlibatan AI **± 90%**.
+Proyek ini dikerjakan dengan **Claude (Anthropic), via Claude Code** — estimasi keterlibatan AI **± 50%**.
 
 | Bagian | AI | Manusia |
 |---|---|---|
-| Kode Python (ETL, analisis, simulasi, grafik) | ~95% | pemberian data & review |
-| Kode Laravel (migrasi, importer, controller, view) | ~95% | review |
-| Tema, kebutuhan, pemilihan stack, data Shopee | – | 100% |
-| Dokumentasi/README | ~90% | penyuntingan |
+| Kode Python (ETL, analisis, simulasi, grafik) | ~25% | Pemberian dataset & review code oleh Claude Code |
+| Kode Laravel (migrasi, importer, controller, view) | ~25% | review code laravel dan struktur laravel yang berada di project ini |
+| Tema, kebutuhan, pemilihan stack, data Shopee | – | ~25% | User menentukan reqruieremnts, stack, dataset (data penjualan shopee pada Dobha Perfumes. 
+| Dokumentasi/README |  | ~25% | 
 
 *Angka ini estimasi dari alur kerja pembuatan; sesuaikan dengan kontribusi Anda sebenarnya sebelum dikumpulkan.* Seluruh angka pada README dihitung oleh kode dan dapat direproduksi dengan `python analysis/run_all.py`.
 
